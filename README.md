@@ -1,32 +1,253 @@
-# React + TypeScript + Vite
+# Forge Dev
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+> **The AI Operating System for Software Teams**
 
-Currently, two official plugins are available:
+Forge Dev is an AI-powered platform that helps software teams plan, build, document, and manage software projects faster. Instead of replacing developers, Forge Dev acts as an intelligent engineering assistant that streamlines the entire software development lifecycle—from idea to deployment.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Vision
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+To become the AI workspace where software teams plan, build, test, document, and maintain applications with the assistance of specialized AI tools.
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## Problem
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+Modern software development relies on many disconnected tools:
+
+* Project management software
+* Documentation platforms
+* AI assistants
+* Testing tools
+* Version control
+* Security tools
+
+Switching between these tools slows development and creates unnecessary complexity.
+
+Forge Dev brings these workflows together into one intelligent platform.
+
+---
+
+## Core Features
+
+### AI Project Planner
+
+Generate:
+
+* Product Requirements Documents (PRDs)
+* Project roadmaps
+* Development timelines
+* User stories
+* Milestones
+* Technical architecture
+
+---
+
+### AI Development Assistant
+
+* Code generation assistance
+* Feature planning
+* Refactoring suggestions
+* Code explanations
+* API design support
+
+---
+
+### AI Documentation
+
+Automatically generate:
+
+* README files
+* API documentation
+* Technical documentation
+* Architecture documentation
+* Project summaries
+
+---
+
+### AI Testing
+
+Generate:
+
+* Unit tests
+* Integration tests
+* Test cases
+* QA checklists
+
+---
+
+### AI Security
+
+Assist developers by:
+
+* Detecting suspicious login patterns
+* Reviewing authentication flows
+* Identifying common security issues
+* Suggesting secure coding practices
+
+---
+
+### Project Management
+
+* Project dashboards
+* Task tracking
+* Milestones
+* Team collaboration
+* Progress monitoring
+
+---
+
+## Technology Stack
+
+### Frontend
+
+* React
+* TypeScript
+* Vite
+* Tailwind CSS
+* React Router
+
+### Backend
+
+* Supabase
+* PostgreSQL
+
+### AI
+
+* OpenAI API
+
+### Deployment
+
+* Vercel
+
+### Version Control
+
+* Git
+* GitHub
+
+---
+
+## Project Structure
+
+```text
+src/
+├── components/
+├── contexts/
+├── features/
+│   ├── auth/
+│   ├── dashboard/
+│   ├── planner/
+│   ├── projects/
+│   └── documentation/
+├── hooks/
+├── layouts/
+├── lib/
+├── pages/
+├── router/
+├── services/
+├── styles/
+├── types/
+└── utils/
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+---
+
+## Development Workflow
+
+```text
+main
+│
+develop
+│
+feature/*
+```
+
+Every feature is developed in its own branch, reviewed, tested, and merged into `develop` before being promoted to `main`.
+
+---
+
+## Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/maxwellmuruka79/forge-dev.git
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Start the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## Roadmap
+
+### Phase 1 — Foundation
+
+* [x] React + TypeScript setup
+* [x] GitHub repository
+* [x] Tailwind CSS
+* [ ] Authentication
+* [ ] Landing page
+* [ ] Dashboard
+
+### Phase 2 — Project Management
+
+* [ ] Create projects
+* [ ] Project dashboard
+* [ ] Milestones
+* [ ] Tasks
+
+### Phase 3 — AI Planner
+
+* [ ] Generate PRDs
+* [ ] Generate user stories
+* [ ] Generate roadmaps
+* [ ] Generate technical architecture
+
+### Phase 4 — Documentation
+
+* [ ] README generation
+* [ ] API documentation
+* [ ] Technical documentation
+
+### Phase 5 — AI Engineering Suite
+
+* [ ] AI development assistant
+* [ ] AI testing assistant
+* [ ] AI security assistant
+
+### Phase 6 — Public Beta
+
+* [ ] User onboarding
+* [ ] Feedback collection
+* [ ] Performance optimization
+
+---
+
+## Contributing
+
+Forge Dev follows a feature-branch workflow. Each feature is developed independently, reviewed, tested, and merged through pull requests.
+
+---
+
+## License
+
+This project is currently proprietary. All rights reserved.
+
+---
+
+## Founder
+
+**Maxwell Muruka**
+
+Building the next generation of AI-powered software engineering tools.
